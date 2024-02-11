@@ -1,0 +1,25 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "kafkajs": "^2.2.4",
+    "nanoid": "3.3.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.11.17",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
